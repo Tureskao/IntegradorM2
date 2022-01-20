@@ -2,3 +2,36 @@
     color:bisque;
     margin-left: 20px;
 }
+
+
+/* lista de contactos de la navbar */
+
+#navbar-contact{
+    list-style-type:none;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+/* Si cada li de la ul tiene display: inline-block, queda una lista horizontal*/
+
+.navbar-contact-item {
+    display: inline-block;
+}
+
+.fa-instagram{
+    color:bisque;
+}
+
+.fa-facebook-square{
+    color:bisque;
+}
+
+.fa-twitter-square{
+    color:bisque;
+}
+
+.fa-github-square{
+    color:bisque;
+}
