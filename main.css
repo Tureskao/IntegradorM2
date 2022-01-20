@@ -14,6 +14,10 @@
     margin-right: 30px;
 }
 
+#login-btn{
+    margin-bottom: 10px;
+}
+
 /* Si cada li de la ul tiene display: inline-block, queda una lista horizontal*/
 
 .navbar-contact-item {
@@ -34,4 +38,24 @@
 
 .fa-github-square{
     color:bisque;
+}
+
+/* portfolio card elements */
+
+#portfolio-pfp{
+    max-width: 15%;
+    height: auto;
+    border-radius: 8px;
+    position: relative;
+    bottom: 100px; left:20px;
+}
+
+#portfolio-profile{
+    position: relative;
+    bottom: 85px; left:20px;
+}
+
+.card-text{
+    margin: none;
+    padding: none;
 }

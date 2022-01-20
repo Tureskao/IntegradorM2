@@ -10,34 +10,61 @@
     <link href="resources/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    
+
+    <!--Navbar Component-->
     <nav class="navbar fixed-top navbar-dark bg-dark">
         <span id="navbar-name" class="navbar-brand mb-0 h2">Genaro Tabare</span>
-        <ul id="navbar-contact">
+        <div id="navbar-right-margin">
+            <ul id="navbar-contact">
 
-            <li class="navbar-contact-item">
-                <a href="https://www.instagram.com/tureskao/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            <li class="navbar-contact-item">
-                <a href="https://www.facebook.com/Tureskao">
-                    <i class="fab fa-facebook-square"></i>
-                </a>
-            </li>
-            <li class="navbar-contact-item">
-                <a href="">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
-            </li>
-            <li class="navbar-contact-item">
-                <a href="">
-                    <i class="fab fa-github-square"></i>
-                </a>
-            </li>
-        </ul>
+                <li class="navbar-contact-item">
+                    <a href="https://www.instagram.com/tureskao/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="navbar-contact-item">
+                    <a href="https://www.facebook.com/Tureskao">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li class="navbar-contact-item">
+                    <a href="">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="navbar-contact-item">
+                    <a href="">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+                <li class="navbar-contact-item">       
+                    <form>
+                        <button id="login-btn" class="btn btn-outline-success btn-sm" type="button">Login</button>
+                    </form>
+                </li>
+            </ul>
+
+        </div>
+
+
     </nav>
 
+    <!--Card Title-->
+    <div class="container">
+        
+        <div class="card mb-3">
+            <img id="portfolio-banner" class="card-img-top" src="/resources/img/bootstrap-social.png" alt="Card image cap" >
+            <div class="card-body">
+                <img id="portfolio-pfp" src="/resources/img/Pixelart.png">
+                <div id="portfolio-profile">
+                    <h5 class="card-title">Genaro Tabare</h5>
+                    <p class="card-text">Desarrollador Fullstack</p>
+                    <p class="card-text"><small class="text-muted">¿A no ser?</small></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <script src="resources/bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
