@@ -49,17 +49,47 @@
 
     </nav>
 
+    <br>
+
     <!--Card Title-->
-    <div class="container">
+    <div id="first-card" class="container">
         
         <div class="card mb-3">
             <img id="portfolio-banner" class="card-img-top" src="/resources/img/bootstrap-social.png" alt="Card image cap" >
-            <div class="card-body">
-                <img id="portfolio-pfp" src="/resources/img/Pixelart.png">
-                <div id="portfolio-profile">
+
+            <div class="card-body" id="portfolio-profile">
+                <div class="row">
+<img id="portfolio-pfp" src="/resources/img/Pixelart.png">
+                    <form>
+                        <button id="editPFP-btn" class="btn btn-primary btn-sm" type="button">Tengo interés en</button>
+                    </form>                    
                     <h5 class="card-title">Genaro Tabare</h5>
+
                     <p class="card-text">Desarrollador Fullstack</p>
                     <p class="card-text"><small class="text-muted">¿A no ser?</small></p>
+                </div>
+                    
+            </div>
+
+            <div class="row" id="portfolio-btns">
+                <div class="col-md">
+                    <ul>
+                        <li class="navbar-contact-item">       
+                            <form>
+                                <button id="iAmInterested-btn" class="btn btn-primary btn-sm" type="button">Tengo interés en</button>
+                            </form>
+                        </li>
+                        <li class="navbar-contact-item">       
+                            <form>
+                                <button id="addSection-btn" class="btn btn-sm" type="button">Añadir seccion</button>
+                            </form>
+                        </li>
+                        <li class="navbar-contact-item">       
+                            <form>
+                                <button id="more-btn" class="btn btn-sm" type="button">Más</button>
+                            </form>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
