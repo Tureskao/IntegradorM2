@@ -40,14 +40,23 @@
     color:bisque;
 }
 
+
+
 /* portfolio card elements */
 
 #first-card{
     margin-top: 100px;
 }
 
+#edit-profile{
+    position: relative;
+    color: black;
+    left: 2em;
+    top: 2em;
+}
+
 #portfolio-pfp{
-    max-width: 15%;
+    max-width: 50%;
     height: auto;
     border-radius: 50%;
     position: relative;
