@@ -55,6 +55,13 @@
     top: 2em;
 }
 
+#edit-about{
+    position: relative;
+    color: black;
+    left: 0em;
+}
+
+
 #portfolio-pfp{
     max-width: 50%;
     height: auto;
@@ -81,4 +88,12 @@
 .card-text{
     margin: none;
     padding: none;
+}
+
+.profile-contact-item {
+    display: inline-block;
+}
+
+#portfolio-btns {
+    padding-left: 0px;
 }

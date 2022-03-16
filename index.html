@@ -14,7 +14,10 @@
 
     <!--Navbar Component-->
     <nav class="navbar fixed-top navbar-dark bg-dark">
+        <!--Navbar name-->
         <span id="navbar-name" class="navbar-brand mb-0 h2">Genaro Tabare</span>
+
+        <!--Navbar right margin (contacts and login btn)-->
         <div id="navbar-right-margin">
             <ul id="navbar-contact">
 
@@ -52,13 +55,16 @@
 
     <br>
 
-    <!--Card Title-->
+    <!--First card (Profile)-->
     <div id="first-card" class="container">
         
         <div class="card mb-3">
             <img id="portfolio-banner" class="card-img-top" src="/resources/img/bootstrap-social.png" alt="Card image cap" >
 
+            
             <div class="card-body" id="portfolio-profile">
+                
+                <!-- Profile picture & Edit btn -->
                 <div class="row">
                     <div class="col-md-4">
                         <img id="portfolio-pfp" src="/resources/img/Pixelart.png">
@@ -66,39 +72,76 @@
                             <i class="fa-solid fa-pencil"></i> 
                         </a>
                     </div>      
-                </div>   
-                    <h5 class="card-title">Genaro Tomás Tabare</h5>
-                    <p class="card-text">Desarrollador Fullstack Jr.</p>
-                    <p class="card-text"><small class="text-muted">Rosario, Santa Fe (Argentina)</small> 
+                </div>
+                
+                <!-- Profile content -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <h5 class="card-title">Genaro Tomás Tabare</h5>
+                        <p class="card-text">Desarrollador Fullstack Jr.</p>
+                        <p class="card-text"><small class="text-muted">Rosario, Santa Fe (Argentina)</small> 
                         <small class="text-muted"><a href="#">Información de contacto</a></small></p>
+                    </div>   
                 </div>
                     
-            
+            <br>
 
-            <div class="row" id="portfolio-btns">
-                <div class="col-md">
-                    <ul>
-                        <li class="navbar-contact-item">       
-                            <form>
-                                <button id="iAmInterested-btn" class="btn btn-primary btn-sm" type="button">Tengo interés en</button>
-                            </form>
-                        </li>
-                        <li class="navbar-contact-item">       
-                            <form>
-                                <button id="addSection-btn" class="btn btn-sm" type="button">Añadir seccion</button>
-                            </form>
-                        </li>
-                        <li class="navbar-contact-item">       
-                            <form>
-                                <button id="more-btn" class="btn btn-sm" type="button">Más</button>
-                            </form>
-                        </li>
-                    </ul>
+                <!-- Profile btns  -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul id="portfolio-btns">
+                            <li class="profile-contact-item">       
+                                <form>
+                                    <button id="iAmInterested-btn" class="btn btn-primary btn-sm" type="button">Tengo interés en</button>
+                                </form>
+                            </li>
+                            <li class="profile-contact-item">       
+                                <form>
+                                    <button id="addSection-btn" class="btn btn-sm" type="button">Añadir seccion</button>
+                                </form>
+                            </li>
+                            <li class="profile-contact-item">       
+                                <form>
+                                    <button id="more-btn" class="btn btn-sm" type="button">Más</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <!--empty space-->
+                    </div>
+
                 </div>
+
+
             </div>
         </div>
-
     </div>
+
+
+    <!--Second Card (About card)-->
+    <div id="second-card" class="container">
+        
+        <div class="card mb-3">
+            <div class="card-body">
+                <!--Title and edit-->
+                <div class="row">
+                    <div class="col-md-11">
+                        <h4>Acerca de</h4>
+                    </div>
+                    <div class="col-md-1">
+                        <a id="edit-about" href="#">
+                            <i class="fa-solid fa-pencil"></i> 
+                        </a>
+                    </div>
+                <!-- Content -->
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
     <script src="resources/bootstrap-5.0.1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
