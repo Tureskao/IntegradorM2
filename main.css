@@ -51,8 +51,8 @@
 #edit-profile{
     position: relative;
     color: black;
-    left: 2em;
-    top: 2em;
+    left: 2rem;
+    top: 2rem;
 }
 
 #edit-about{
@@ -61,7 +61,7 @@
 
 
 #portfolio-pfp{
-    max-width: 50%;
+    max-width: 150px;
     height: auto;
     border-radius: 50%;
     position: relative;
@@ -70,14 +70,13 @@
 
 #editPFP-btn{
     position:sticky;
-    left: 12em;
 }
 
 #portfolio-profile{
     position: relative;
     bottom: 2rem;
     padding-bottom: 0px;
-    padding-left: 2em;
+    padding-left: 2rem;
 }
 
 #portfolio-banner{
@@ -101,6 +100,46 @@
 
 /* Third card */
 
+#experience-header{
+    padding-bottom: 20px;
+}
+
 #edit-experience{
     color: black;
+}
+
+#education-header{
+    padding-bottom: 20px;
+}
+
+#edit-education{
+    color: black;
+}
+
+.education-image{
+    max-width: 100px;
+    max-height: auto;
+}
+
+.education-item{
+    display: inline-block;
+    padding:  0px;
+}
+
+.education-image-subitem{
+    padding: 0px;
+}
+
+.education-item-title{
+    padding-left: 0px;
+}
+
+.education-item-content{
+    list-style-type: none;
+}
+
+/*Fourth card (Skills)*/
+
+.skill-h7{
+    margin-bottom:5px;
 }
